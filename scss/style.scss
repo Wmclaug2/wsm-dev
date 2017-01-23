@@ -500,6 +500,12 @@ article.port{
 	}
 	i{
 		font-size:50px;
+		@include mobile{
+			font-size:30px;
+		}
+	}
+	@include mobile{
+		font-size:15px;
 	}
 }
 
