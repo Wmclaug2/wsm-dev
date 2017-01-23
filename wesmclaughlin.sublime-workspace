@@ -1,0 +1,314 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"initiate",
+				"initiative-item"
+			],
+			[
+				"div",
+				"divider"
+			],
+			[
+				"contact",
+				"contact-header"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"transo",
+				"transform"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"guess",
+				"guessField"
+			],
+			[
+				"gues",
+				"guessField"
+			],
+			[
+				"last",
+				"lastResult"
+			],
+			[
+				"low",
+				"lowOrHi"
+			],
+			[
+				"random",
+				"randomNumber"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"inline",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "package Control: install ",
+		"selected_items":
+		[
+			[
+				"package Control: install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"Package Control:Install Package"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/WSM/Desktop/Web Dev",
+		"/Users/WSM/Desktop/Web Dev/personal_projects",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/img",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/pages",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/scss"
+	],
+	"file_history":
+	[
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/scss/main.scss",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/pages/afterschool-programs.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/pages/FAQ.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/index.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/pages/about-us.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/pages/initiatives.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/pages/honor-society.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/pages/teacher-training.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/scss/_mixins.scss",
+		"/Users/WSM/Desktop/Web Dev/tools/Sass/mixins/_mixins.scss",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/pages/news.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/pages/teachers-lounge.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/scss/style.scss",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/index.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/pages/programming.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/pages/music.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/pages/contact.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/pages/about-me.html",
+		"/Users/WSM/Desktop/Web Dev/work_projects/Newsletter/September Newsletter copy/css/main.css",
+		"/Users/WSM/Desktop/Web Dev/practice_projects/bootstrapin/index.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/scss/_mixins.scss",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/styles/style.css",
+		"/Users/WSM/Desktop/Web Dev/Mozilla Javascript Practice/numbergame.html",
+		"/Users/WSM/Desktop/Web Dev/Wes McLaughlin Remake - Copy/styles/test.css",
+		"/Users/WSM/Desktop/Web Dev/Wes McLaughlin Remake - Copy/styles/test.html",
+		"/Users/WSM/Desktop/Web Dev/Wes McLaughlin Remake - Copy/styles/style.css",
+		"/Users/WSM/Desktop/Web Dev/Wes McLaughlin Remake - Copy/pages/about-me.html",
+		"/Users/WSM/Desktop/Web Dev/Wes McLaughlin Remake - Copy/index.html",
+		"/Users/WSM/Desktop/Web Dev/Wes McLaughlin Remake - Copy/styles/aboutstyle.css",
+		"/Users/WSM/Desktop/Web Dev/Wes McLaughlin Remake - Copy/pages/music.html",
+		"/Users/WSM/Desktop/Web Dev/Wes McLaughlin Remake - Copy/pages/misc.html",
+		"/Users/WSM/Desktop/Web Dev/Wes McLaughlin Remake - Copy/pages/programming.html",
+		"/Users/WSM/Desktop/Web Dev/Wes McLaughlin Remake - Copy/pages/contact.html",
+		"/Users/WSM/Desktop/Web Dev/Sleave/about.css",
+		"/Users/WSM/Desktop/Web Dev/Sleave/main.css",
+		"/Users/WSM/Desktop/Web Dev/Sleave/index.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"submenu-item",
+			"submenu",
+			"<h3>Upcoming Events</h3>",
+			"3s",
+			"misc",
+			"3s",
+			"6s",
+			"m",
+			"infinite",
+			"rotated",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "wesmclaughlin.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 197.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

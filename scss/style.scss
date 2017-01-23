@@ -1,0 +1,580 @@
+//***************************
+
+//** Imports
+
+// ***************************
+
+@import 
+'compass/css3',
+'_mixins',
+'https://fonts.googleapis.com/css?family=Montserrat',
+'https://fonts.googleapis.com/css?family=Just+Another+Hand',
+'https://fonts.googleapis.com/css?family=Open+Sans|amatic_scregular';
+
+// ***************************
+
+//** Font Faces
+
+// ***************************
+
+
+// ***************************
+
+//** Keyframes
+
+// ***************************
+
+@-webkit-keyframes fadeIn{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+
+@-moz-keyframes fadeIn{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+
+@-o-keyframes fadeIn{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+
+@keyframes fadeIn{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+
+@keyframes sweep 
+{
+ 0%    {opacity: 0; margin-left: -1000px}
+ 100%  {opacity: 1; margin-left: auto}
+}
+
+// ***************************
+
+//** Animation Classes
+
+// ***************************
+
+.fadeIn{
+	-webkit-animation: fadeIn ease-in forwards;
+	-moz-animation: fadeIn ease-in forwards ;
+	-o-animation: fadeIn ease-in forwards ;
+	animation:fadeIn ease-in-out forwards ;
+
+
+	&.one{
+			-webkit-animation-duration:2s;
+			-moz-animation-duration:2s;
+			-o-animation-duration:2s;
+			animation-duration:2s;
+	}
+
+	&.two{
+			-webkit-animation-duration:4s;
+			-moz-animation-duration:4s;
+			-o-animation-duration:4s;
+			animation-duration:4s;
+	}
+
+	&.three{
+			-webkit-animation-duration:5s;
+			-moz-animation-duration:5s;
+			-o-animation-duration:5s;
+			animation-duration:5s;
+	}
+}
+// ***************************
+
+//**  Page Wrappers and Base
+
+// ***************************
+
+.page-wrapper{
+	width:100%;
+	max-width: 1020px;
+	margin:0 auto;
+}
+html, body{
+	background:black;
+	color:white;
+}
+h3{
+	margin:0;
+	padding:0;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+// ***************************
+
+//** Top social icons
+
+// ***************************
+
+#top-corner-social-icons{
+	display:flex;
+	justify-content:flex-end;
+	li{
+		display:inline-block;
+		margin:7px;
+		text-decoration:none;
+	}
+	i{
+		font-size:30px;
+		transition:.3s ease-in-out;
+		&:hover{
+			transform: translate(0, -5px) scale(1.1);
+		}
+	}
+	@include mobile{
+		display:none;
+	}
+}
+
+// ***************************
+
+//** Header
+
+// ***************************
+
+header{
+	margin-bottom: 15px;
+	position: relative;
+	text-align: center;
+	h1{
+		color:white;
+		font-size: 4.6875em;
+		font: bold 4.6875em 'amatic_scregular',sans-serif;
+		margin: 10px auto 10px auto;
+		padding: 10px;
+		@include mobile{
+			margin:30px auto 10px auto;
+		}
+	}
+
+	h2{
+		color:rgba(255,255,255,.65);
+		font: bold 1.625em 'amatic_scregular',sans-serif;
+		margin: 0px auto 30px auto;
+		transition:.3s ease-in-out;
+		width:10%;
+		@include mobile{
+			width:50%;
+		}
+		&:hover{
+			transform:scale(1.5);
+			@include mobile{
+				transform:scale(1);
+			}
+		}
+	}
+
+// ***************************
+
+//** Nav
+
+// ***************************
+
+	nav{
+		border-top: 1px solid white;
+		margin:0 auto;
+		width:80%;
+		@include mobile{
+			width:100%;
+		}
+		@include mobile{
+				border-radius: 2px;
+		 		border-right: .05em solid white;
+		 		display: inline-block;
+			 	transition: background-color .5s linear;
+			 	&:last-child{
+			 		border-right:none;
+			 	}
+			}
+		ul{
+			padding:30px 30px 10px 30px;
+			margin:0 auto;
+			@include mobile{
+				padding:30px 0px 0px 0px;
+				width:100%;
+
+			}
+		}
+
+		li{
+		 	border-radius: 2px;
+		 	border-right: .05em solid white;
+		 	display: inline-block;
+		 	font-family: 'amatic_scregular';
+		 	font-size: 1.5625em;
+		 	list-style:none;
+		 	margin: 10px auto;
+		 	padding: 1.818181818182%;
+		 	text-decoration: none;
+		 	transition: all .3s linear;
+		 	&:hover{
+				background-color: dimgray;
+				transform:scale(1.11);
+				@include mobile{
+					transform:scale(1);
+				}
+			}
+			@include mobile{
+				display:inline-block;
+		 	}
+		 }
+
+		.lastlink{
+			border-right:none;
+		}
+	}
+}
+// ***************************
+
+//** Main Page Content
+
+// ***************************
+
+article{
+	position: relative;
+	#main-pic{
+		height:auto;
+		margin: 20px auto;
+		width:90%;
+		img{
+			border-radius:5px;
+			display:inline-block;
+			width: 100%;
+			margin:10px auto;
+		}
+		@include mobile{
+			padding:5px;
+			margin:5px auto 20px auto;
+			width:95%;
+		}
+	}	
+	
+	h3{
+		display:block;
+		float:left;
+		font: bold 3.125em 'amatic_scregular',sans-serif;
+		margin-bottom:10px;
+		@include mobile{
+			display:block;
+			float:none;
+			text-align:center;
+			margin:0 auto;
+		}
+	}
+	
+	.img-wrapper{
+		display: table;
+		height:200px;
+		width: 100%;
+	}
+	//Current Projects
+	.current-projects{
+		align-content:space-around;
+		display:flex;
+		margin:20px auto;
+		width:90%;
+		.project{
+			flex-shrink:0;
+			margin:10px;
+			width:25%;
+			.project-header{
+				font:35px"amatic_scregular";
+				margin:15px auto;
+				@include mobile{
+					font-size:40px;
+					text-align:center;
+				}
+			}
+			img{
+				border-radius:5px;
+				flex-shrink:0;
+				transition:.3s;
+				width:100%;
+				&:hover{
+					transform:scale(1.05);
+				}
+				@include mobile{
+					border-radius:10px;
+				}
+			}
+			.project-descriptor{
+				font: 20px "amatic_scregular";
+				margin:0 auto;
+				padding:10px;
+				text-align:right;
+				@include mobile{
+					font-size:25px;
+					text-align:center;
+				}
+				a{
+					color:#CD5555;
+				}
+			}
+			@include mobile{
+				width:70%;
+			}
+		}
+		@include mobile{
+			align-content:center;
+			justify-content:center;
+			flex-wrap:wrap;
+		}
+	}
+}
+
+
+// ***************************
+
+//** About Me Page
+
+// ***************************
+.aboutme{
+	padding-left:20px;
+	position:relative;
+	@include mobile{
+		padding:none;
+	}
+	img{
+		border:7px solid #333;
+		border-radius:50%;
+		display:inline-block;
+		float:right;
+		margin-bottom:40px;
+		margin-left:auto;
+		margin-right:20px;;
+		margin-top:0px;
+		width:50%;
+		@include mobile{
+			display:block;
+			margin:40px auto;
+			float:none;
+			text-align:center;
+			width:90%;
+		}
+
+	}
+
+	.about-header{
+		margin-right:auto;
+		margin-left:auto;
+		margin-bottom:20px;
+		font-size:50px;
+		font-family:'amatic_scregular';
+		text-align:left;
+		@include mobile{
+			margin-top:30px;
+			margin-left:auto;
+			margin-right:auto;
+			text-align:center;
+		}
+	}
+	
+	.about-bullets,.learn,.learn-more{
+		font-family:'Montserrat';
+		margin:0 auto;
+	}
+	
+	.learn{
+		margin-top:50px;
+		text-align:justify;
+		@include mobile{
+			
+			width:70%;
+		}
+	}
+	.learn-more{
+		text-align:justify;
+		@include mobile{
+			width:90%;
+		}
+	}
+
+	.about-bullets{
+		margin-left:20px;;
+		padding-left:0;
+		text-align:left;
+	}
+
+}
+
+
+// ***************************
+
+//** Music Page
+
+// ***************************
+
+	.music {
+		& iframe{
+			display: block;
+			margin: 40px auto;
+			width:60%;
+			@include mobile{
+				width:80%;
+			}
+		}
+		& p{
+			font: 1.375em 'amatic_scregular', sans-serif;
+			text-align: center;
+			margin: 0 auto;
+		}
+	}
+// ***************************
+
+//** Portfolio Page
+
+// ***************************
+article.port{
+	.port-container{
+		margin:20px auto 40px auto;
+		width:80%;
+	}
+	h3{
+		float:none;
+		margin:10px 30px;
+		@include mobile{
+			text-align:center;
+		}
+	}
+	img{
+		border-radius:5px;
+		display:block;
+		float:none;
+		margin:20px auto 30px auto;
+		transition:.5s ease-in-out;
+		width:80%;
+		@include mobile{
+			width:90%;
+		}
+		&:hover{
+			transform:scale(1.05);
+		}
+	}
+	h4{
+		display:block;
+		font-size:30px;
+		margin:10px auto;
+		text-align:center;
+		transition:.3s linear;
+		width:30%;
+		@include mobile{
+			width:100%
+		}
+		&:hover{
+			transform:scale(1.1);
+		}
+	}
+
+
+}
+
+// ***************************
+
+//** Contact Page
+
+// ***************************
+
+.contact {
+	font-size:20px;
+	margin:0 auto 40px auto;
+	width:90%;
+	display:block;
+	position:relative;
+	.contact-header{
+		line-height:1.5em;
+		float:none;
+		text-align:center;	
+	}
+	.email{
+		left:10px;
+	}
+	a:hover{
+		color:#AAA;
+	}
+	i{
+		font-size:50px;
+	}
+}
+
+// ***************************
+
+//** Footer
+
+// ***************************
+footer{
+	margin: 50px auto 30px auto;
+	position: relative;
+	text-align: center;
+	width:90%;
+	#foot-nav{		
+		li{
+			border-bottom: .05em solid white;
+			border-radius: .5em;
+			border-right: .05em solid white;
+			display: inline;
+			font: 1.5625em 'amatic_scregular',sans-serif;
+			padding:15px;
+			text-decoration: none;
+			&:hover{
+				background-color: dimgray;
+				transition: background-color 1s ease-in-out;
+			}
+			@include mobile{
+				border-radius:0;
+				border-bottom:none;
+				border-radius: 2px;
+		 		border-right: .05em solid white;
+		 		display: inline-block;
+		 		font-family: 'amatic_scregular';
+		 		font-size: 1.5625em;
+		 		list-style:none;
+			 	margin: 10px auto;
+			 	padding: 1.818181818182%;
+			 	text-decoration: none;
+			 	transition: background-color .5s linear;
+			 	&:last-child{
+			 		border-right:none;
+			 	}
+			}
+		}
+	}
+	#social-icons{
+		display:flex;
+		justify-content:center;
+		margin:50px auto 10px auto;
+		max-width:100%;
+		@include mobile{
+			// margin-left:-13%;
+		}
+		ul{
+			display:flex;
+			justify-content:center;
+			//including to user agent stylesheet in chrome
+			-webkit-margin-before: 0;
+			-webkit-margin-after: 0;
+			-webkit-margin-start: 0px;
+			-webkit-margin-end: 0px;
+			-webkit-padding-start: 0;
+		}
+		li{
+			display: inline;
+			margin:10px;
+			text-align:center;
+			text-decoration: none;
+		}
+		i{
+			font-size:40px;
+			transition:.3s ease-in-out;
+			&:hover{
+				transform: translate(0, -5px) scale(1.1);
+			}
+		}
+	}
+}
